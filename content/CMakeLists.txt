@@ -14,4 +14,6 @@ qt6_add_qml_module(content
         assets/image_1.png
         QML_FILES SignUpForm.qml
         QML_FILES SignInForm.qml
+        QML_FILES Board.qml
+        QML_FILES ListTrello.qml
 )

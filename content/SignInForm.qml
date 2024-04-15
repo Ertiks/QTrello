@@ -126,6 +126,8 @@ Rectangle{
             //     id: login_button_shadow
             // }
 
+
+
             RowLayout{
                 id: login_layout
                 anchors.fill: parent
@@ -135,6 +137,8 @@ Rectangle{
                     flat: true
                     Layout.fillWidth: true
                     Layout.fillHeight: true
+                    onClicked: {
+                    }
 
                     RowLayout{
                         id: login_label_layout
@@ -142,7 +146,7 @@ Rectangle{
 
                         Text {
                             id: login_button_label
-                            text: qsTr("Register")
+                            text: qsTr("Login")
                             font.weight: Font.Normal
                             font.family: "Raleway"
                             font.pixelSize: 36
@@ -153,6 +157,7 @@ Rectangle{
                 }
             }
         }
+
     }
 }
 

@@ -5,228 +5,319 @@ this file manually, you might introduce QML code that is not supported by Qt Des
 Check out https://doc.qt.io/qtcreator/creator-quick-ui-forms.html for details on .ui.qml files.
 */
 
-import QtQuick 6.2
-import QtQuick.Controls 6.2
-import DEV_600_Trello
-import QtQuick.Layouts 1.15
-// import QtGraphicalEffects 1.12
-// import QtQuick.Studio.Effects
+// import QtQuick 6.2
+// import QtQuick.Controls 6.2
+// import DEV_600_Trello
+// import QtQuick.Layouts 1.15
+// // import QtGraphicalEffects 1.12
+// // import QtQuick.Studio.Effects
+
+// Rectangle {
+//     id: login_page
+//     width: Window.width
+//     height: Window.height
+
+//     gradient: Gradient {
+//         GradientStop {
+//             position: 0
+//             color: "#fdb062"
+//         }
+
+//         GradientStop {
+//             position: 0.30702
+//             color: "#e7b4b3"
+//         }
+
+//         GradientStop {
+//             position: 0.71491
+//             color: "#e7b4b3"
+//         }
+
+//         GradientStop {
+//             position: 1
+//             color: "#3f3b3a"
+//         }
+
+//         orientation: Gradient.Vertical
+//     }
+
+    // Rectangle {
+    //         id: body
+    //         width: parent.width * 0.6
+    //         color: "transparent"
+    //         anchors.left: parent.left
+    //         anchors.top: parent.top
+    //         anchors.leftMargin: parent.width * 0.2
+    //         anchors.topMargin: parent.height * 0.4
+    //         anchors.horizontalCenter: parent.horizontalCenter
+
+
+    // }
+
+    // Board{
+    //     id: board
+    //     ListTrello{
+    //         anchors.centerIn: parent
+
+    //     }
+
+    // }
+
+
+
+//     Rectangle {
+//         id: logo
+//         width: parent.width * 0.6
+//         height: width * 0.7
+//         anchors.left: parent.left
+//         anchors.top: parent.top
+//         anchors.leftMargin: parent.width * 0.2
+//         anchors.topMargin: parent.height * 0.15
+//         anchors.horizontalCenter: parent.horizontalCenter
+//         color: "transparent"
+
+//         ColumnLayout {
+//             id: logo_layout
+//             anchors.fill: parent
+//             spacing: 16
+
+//             Rectangle {
+//                 id: logo_image
+//                 color: "#fdb062"
+//                 Layout.preferredWidth: logo.width * 0.4
+//                 Layout.preferredHeight: logo.width * 0.4
+//                 Layout.alignment: Qt.AlignHCenter | Qt.AlignTop
+//                 radius: 30
+//                 RowLayout{
+//                     id: logo_image_layout
+//                     anchors.fill: parent
+//                     anchors.leftMargin: 40
+//                     anchors.rightMargin: 40
+//                     anchors.topMargin: 40
+//                     anchors.bottomMargin: 40
+//                     Image {
+//                         id: image_1
+//                         source: "assets/image_1.png"
+//                         Layout.fillWidth: true
+//                         Layout.fillHeight: true
+//                         Layout.alignment: Qt.AlignLeft | Qt.AlignTop
+//                     }
+//                 }
+
+
+//             }
+//             Text {
+//                 id: title
+//                 text: qsTr("WELCOME ON TROLLE")
+//                 font.pixelSize: 65
+//                 font.weight: Font.DemiBold
+//                 font.family: "Raleway"
+//                 Layout.alignment: Qt.AlignBottom | Qt.AlignHCenter
+//             }
+
+//         }
+//     }
+
+//     Rectangle {
+//         id: body
+//         width: parent.width * 0.6
+//         color: "transparent"
+//         anchors.left: parent.left
+//         anchors.top: parent.top
+//         anchors.leftMargin: parent.width * 0.2
+//         anchors.topMargin: parent.height * 0.4
+//         anchors.horizontalCenter: parent.horizontalCenter
+
+//         SignUpForm{
+//             id: sign_up_form
+//             visible: true
+//         }
+
+//         SignInForm{
+//             id: sign_in_form
+//             visible: false
+//         }
+//     }
+
+//     Rectangle {
+//         id: footer
+//         width: parent.width * 0.7
+//         height: parent.height * 0.05
+//         color: "transparent"
+//         anchors.left: parent.left
+//         anchors.bottom: parent.bottom
+//         anchors.leftMargin: parent.width * 0.15
+//         anchors.bottomMargin: parent.height * 0.1
+
+//         RowLayout {
+//             id: footer_layout
+//             anchors.fill: parent
+//             spacing: 45
+//             Text {
+//                 id: already_have_an_account_label
+//                 color: "#ffffff"
+//                 text: qsTr("Already have an account?")
+//                 horizontalAlignment: Text.AlignLeft
+//                 verticalAlignment: Text.AlignVCenter
+//                 wrapMode: Text.NoWrap
+//                 Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
+//                 font.weight: Font.Normal
+//                 font.family: "Raleway"
+//             }
+//             Button {
+//                 id: sign_in_button
+//                 Layout.preferredWidth: footer.width / 4
+//                 Layout.fillHeight: true
+//                 Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
+//                 flat: true
+//                 checkable: true
+
+//                 Text {
+//                     id: sign_in_button_label
+//                     color: "#fdb062"
+//                     text: qsTr("Login")
+//                     anchors.verticalCenter: parent.verticalCenter
+//                     horizontalAlignment: Text.AlignLeft
+//                     verticalAlignment: Text.AlignVCenter
+//                     anchors.horizontalCenter: parent.horizontalCenter
+//                     Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
+//                     Layout.fillWidth: true
+//                     font.weight: Font.Normal
+//                     font.family: "Raleway"
+//                 }
+//             }
+//         }
+//     }
+
+//     Button {
+//         id: button
+//         text: qsTr("Press me")
+//         anchors.verticalCenter: parent.verticalCenter
+//         checkable: true
+//         anchors.horizontalCenter: parent.horizontalCenter
+
+//         Connections {
+//             target: button
+//             onClicked: animation.start()
+//         }
+//     }
+
+//     Text {
+//         id: label
+//         text: qsTr("Hello DEV_600_Trello")
+//         anchors.top: button.bottom
+//         font.family: Constants.font.family
+//         anchors.topMargin: 45
+//         anchors.horizontalCenter: parent.horizontalCenter
+
+//         SequentialAnimation {
+//             id: animation
+
+//             ColorAnimation {
+//                 id: colorAnimation1
+//                 target: login_page
+//                 property: "color"
+//                 to: "#2294c6"
+//                 from: Constants.backgroundColor
+//             }
+
+//             ColorAnimation {
+//                 id: colorAnimation2
+//                 target: login_page
+//                 property: "color"
+//                 to: Constants.backgroundColor
+//                 from: "#2294c6"
+//             }
+//         }
+//     }
+//     states: [
+//         State {
+//             name: "signIn_signUp_switch"
+//             when: sign_in_button.checked
+
+//             PropertyChanges {
+//                 target: sign_in_button_label
+//                 text: qsTr("Sign up")
+//             }
+//             PropertyChanges {
+//                 target: already_have_an_account_label
+//                 text: qsTr("Don't have an account?")
+//             }
+//             PropertyChanges {
+//                 target: sign_up_form
+//                 visible: false
+//             }
+//             PropertyChanges {
+//                 target: sign_in_form
+//                 visible: true
+//             }
+//         }
+//     ]
+// }r
+
+import QtQuick 2.15
+import QtQuick.Controls 2.15
+import QtQuick.Layouts 1.3 // Import statement for GridLayout
+
 
 Rectangle {
-    id: login_page
     width: Window.width
     height: Window.height
 
-    gradient: Gradient {
-        GradientStop {
-            position: 0
-            color: "#fdb062"
-        }
-
-        GradientStop {
-            position: 0.30702
-            color: "#e7b4b3"
-        }
-
-        GradientStop {
-            position: 0.71491
-            color: "#e7b4b3"
-        }
-
-        GradientStop {
-            position: 1
-            color: "#3f3b3a"
-        }
-
-        orientation: Gradient.Vertical
-    }
-
     Rectangle {
-        id: logo
-        width: parent.width * 0.6
-        height: width * 0.7
-        anchors.left: parent.left
-        anchors.top: parent.top
-        anchors.leftMargin: parent.width * 0.2
-        anchors.topMargin: parent.height * 0.15
-        anchors.horizontalCenter: parent.horizontalCenter
-        color: "transparent"
+        id: background
+        color: "#333333"
+        anchors.fill: parent
 
-        ColumnLayout {
-            id: logo_layout
-            anchors.fill: parent
-            spacing: 16
+        // Status bar at the top
+        Rectangle {
+            id: statusBar
+            color: "#4CAF50"
+            height: 40
 
-            Rectangle {
-                id: logo_image
-                color: "#fdb062"
-                Layout.preferredWidth: logo.width * 0.4
-                Layout.preferredHeight: logo.width * 0.4
-                Layout.alignment: Qt.AlignHCenter | Qt.AlignTop
-                radius: 30
-                RowLayout{
-                    id: logo_image_layout
-                    anchors.fill: parent
-                    anchors.leftMargin: 40
-                    anchors.rightMargin: 40
-                    anchors.topMargin: 40
-                    anchors.bottomMargin: 40
-                    Image {
-                        id: image_1
-                        source: "assets/image_1.png"
-                        Layout.fillWidth: true
-                        Layout.fillHeight: true
-                        Layout.alignment: Qt.AlignLeft | Qt.AlignTop
-                    }
-                }
-
-
-            }
             Text {
-                id: title
-                text: qsTr("WELCOME ON TROLLE")
-                font.pixelSize: 65
-                font.weight: Font.DemiBold
-                font.family: "Raleway"
-                Layout.alignment: Qt.AlignBottom | Qt.AlignHCenter
-            }
-
-        }
-    }
-
-    Rectangle {
-        id: body
-        width: parent.width * 0.6
-        color: "transparent"
-        anchors.left: parent.left
-        anchors.top: parent.top
-        anchors.leftMargin: parent.width * 0.2
-        anchors.topMargin: parent.height * 0.4
-        anchors.horizontalCenter: parent.horizontalCenter
-
-        SignUpForm{
-            id: sign_up_form
-            visible: true
-        }
-
-        SignInForm{
-            id: sign_in_form
-            visible: false
-        }
-    }
-
-    Rectangle {
-        id: footer
-        width: parent.width * 0.7
-        height: parent.height * 0.05
-        color: "transparent"
-        anchors.left: parent.left
-        anchors.bottom: parent.bottom
-        anchors.leftMargin: parent.width * 0.15
-        anchors.bottomMargin: parent.height * 0.1
-
-        RowLayout {
-            id: footer_layout
-            anchors.fill: parent
-            spacing: 45
-            Text {
-                id: already_have_an_account_label
-                color: "#ffffff"
-                text: qsTr("Already have an account?")
-                horizontalAlignment: Text.AlignLeft
-                verticalAlignment: Text.AlignVCenter
-                wrapMode: Text.NoWrap
-                Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
+                id: name
+                text: qsTr("text")
                 font.weight: Font.Normal
                 font.family: "Raleway"
+                font.pixelSize: 36
+                horizontalAlignment: Text.AlignLeft
+                verticalAlignment: Text.AlignVCenter
             }
-            Button {
-                id: sign_in_button
-                Layout.preferredWidth: footer.width / 4
-                Layout.fillHeight: true
-                Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
-                flat: true
-                checkable: true
+            anchors.top: parent.top
+            anchors.left: parent.left
+            anchors.right: parent.right
+        }
 
-                Text {
-                    id: sign_in_button_label
-                    color: "#fdb062"
-                    text: qsTr("Login")
-                    anchors.verticalCenter: parent.verticalCenter
-                    horizontalAlignment: Text.AlignLeft
-                    verticalAlignment: Text.AlignVCenter
-                    anchors.horizontalCenter: parent.horizontalCenter
-                    Layout.alignment: Qt.AlignHCenter | Qt.AlignVCenter
-                    Layout.fillWidth: true
-                    font.weight: Font.Normal
-                    font.family: "Raleway"
+
+
+        // Plus button
+        Button {
+            id: addButton
+            icon.source: "qrc:/icons/add.svg" // Make sure to provide the correct path to your add icon
+            anchors.top: statusBar.bottom
+            anchors.topMargin: 10
+            anchors.right: parent.right
+            anchors.rightMargin: 10
+        }
+
+        // Content placeholders
+        GridLayout {
+            columns: 2
+            rowSpacing: 10
+            columnSpacing: 10
+            anchors.centerIn: parent
+            width: parent.width - 20
+
+            Repeater {
+                model: 5 // Number of placeholder items
+                delegate: Rectangle {
+                    width: 150
+                    height: 100
+                    color: "#555555"
                 }
             }
         }
     }
-
-    // Button {
-    //     id: button
-    //     text: qsTr("Press me")
-    //     anchors.verticalCenter: parent.verticalCenter
-    //     checkable: true
-    //     anchors.horizontalCenter: parent.horizontalCenter
-
-    //     Connections {
-    //         target: button
-    //         onClicked: animation.start()
-    //     }
-    // }
-
-    // Text {
-    //     id: label
-    //     text: qsTr("Hello DEV_600_Trello")
-    //     anchors.top: button.bottom
-    //     font.family: Constants.font.family
-    //     anchors.topMargin: 45
-    //     anchors.horizontalCenter: parent.horizontalCenter
-
-    //     SequentialAnimation {
-    //         id: animation
-
-    //         ColorAnimation {
-    //             id: colorAnimation1
-    //             target: login_page
-    //             property: "color"
-    //             to: "#2294c6"
-    //             from: Constants.backgroundColor
-    //         }
-
-    //         ColorAnimation {
-    //             id: colorAnimation2
-    //             target: login_page
-    //             property: "color"
-    //             to: Constants.backgroundColor
-    //             from: "#2294c6"
-    //         }
-    //     }
-    // }
-    states: [
-        State {
-            name: "signIn_signUp_switch"
-            when: sign_in_button.checked
-
-            PropertyChanges {
-                target: sign_in_button_label
-                text: qsTr("Sign up")
-            }
-            PropertyChanges {
-                target: already_have_an_account_label
-                text: qsTr("Don't have an account?")
-            }
-            PropertyChanges {
-                target: sign_up_form
-                visible: false
-            }
-            PropertyChanges {
-                target: sign_in_form
-                visible: true
-            }
-        }
-    ]
 }
+
