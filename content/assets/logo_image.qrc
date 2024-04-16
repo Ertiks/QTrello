@@ -1,6 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>../../../parPitie/content/Projet_API_Trello(signUp)/assets/image_1.png</file>
-        <file>../image_1.png</file>
-    </qresource>
-</RCC>
