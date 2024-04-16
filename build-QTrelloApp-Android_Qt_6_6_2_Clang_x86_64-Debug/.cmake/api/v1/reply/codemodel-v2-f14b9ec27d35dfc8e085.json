@@ -1,0 +1,232 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-56b18d33d544d89df7e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "QTrelloApp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "_qt_internal_apk_dependencies::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_qt_internal_apk_dependencies-Debug-0001cb6cd7d428f39f09.json",
+					"name" : "_qt_internal_apk_dependencies",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aab-Debug-c562fcf1e264cce749a5.json",
+					"name" : "aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-eb7d4287e3031026ad69.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-4b2231e3638282e3de91.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-97ed6bfec44b3ec0f412.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-52915aace47b118310dd.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk-Debug-f670c87ecdcc20cf7fb9.json",
+					"name" : "apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk_all-Debug-6f491fbf1555535e2dba.json",
+					"name" : "apk_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQTrelloApp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQTrelloApp-Debug-72eea143e723ff9f66b6.json",
+					"name" : "appQTrelloApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQTrelloApp_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQTrelloApp_autogen-Debug-9525e0b3d003dd792721.json",
+					"name" : "appQTrelloApp_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQTrelloApp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQTrelloApp_autogen_timestamp_deps-Debug-98c8cafd7a684791bbad.json",
+					"name" : "appQTrelloApp_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQTrelloApp_make_aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQTrelloApp_make_aab-Debug-1285d2c001aebc8eb2e0.json",
+					"name" : "appQTrelloApp_make_aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQTrelloApp_make_apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQTrelloApp_make_apk-Debug-35fc59debc1f64ff5c40.json",
+					"name" : "appQTrelloApp_make_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQTrelloApp_prepare_apk_dir::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQTrelloApp_prepare_apk_dir-Debug-877a5002ac1ade8efb9f.json",
+					"name" : "appQTrelloApp_prepare_apk_dir",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQTrelloApp_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQTrelloApp_qmllint-Debug-13657f2e5eeabd55f51b.json",
+					"name" : "appQTrelloApp_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQTrelloApp_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQTrelloApp_qmllint_json-Debug-708052ccac51e6390da9.json",
+					"name" : "appQTrelloApp_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQTrelloApp_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQTrelloApp_qmllint_module-Debug-7b4df0fed56b5aa0301c.json",
+					"name" : "appQTrelloApp_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQTrelloApp_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQTrelloApp_qmltyperegistration-Debug-c41ffcb6aa54f422ea9e.json",
+					"name" : "appQTrelloApp_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appQTrelloApp_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appQTrelloApp_tooling-Debug-982eb8f99f7134fe43c4.json",
+					"name" : "appQTrelloApp_tooling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_internal_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_internal_plugins-Debug-04a263f41fa8ebddd9ec.json",
+					"name" : "qt_internal_plugins",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/matth/OneDrive/Documents/QTrello/build-QTrelloApp-Android_Qt_6_6_2_Clang_x86_64-Debug",
+		"source" : "C:/Users/matth/OneDrive/Documents/QTrello/QTrelloApp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

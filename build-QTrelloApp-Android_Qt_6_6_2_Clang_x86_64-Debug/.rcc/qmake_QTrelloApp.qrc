@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/QTrelloApp">
+    <file alias="qmldir">C:/Users/matth/OneDrive/Documents/QTrello/build-QTrelloApp-Android_Qt_6_6_2_Clang_x86_64-Debug/QTrelloApp/qmldir</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/QTrelloApp/">
+    <file alias="Main.qml">C:/Users/matth/OneDrive/Documents/QTrello/QTrelloApp/Main.qml</file>
+  </qresource>
+</RCC>
+

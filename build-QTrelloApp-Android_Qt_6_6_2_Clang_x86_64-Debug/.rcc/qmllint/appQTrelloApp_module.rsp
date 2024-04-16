@@ -1,0 +1,10 @@
+-I
+C:/Users/matth/OneDrive/Documents/QTrello/build-QTrelloApp-Android_Qt_6_6_2_Clang_x86_64-Debug
+-I
+C:/Qt/6.6.2/android_x86_64/./qml
+--resource
+C:/Users/matth/OneDrive/Documents/QTrello/build-QTrelloApp-Android_Qt_6_6_2_Clang_x86_64-Debug/.rcc/qmake_QTrelloApp.qrc
+--resource
+C:/Users/matth/OneDrive/Documents/QTrello/build-QTrelloApp-Android_Qt_6_6_2_Clang_x86_64-Debug/.rcc/appQTrelloApp_raw_qml_0.qrc
+--module
+QTrelloApp

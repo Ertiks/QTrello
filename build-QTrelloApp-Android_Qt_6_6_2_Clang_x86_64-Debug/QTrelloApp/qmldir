@@ -1,0 +1,5 @@
+module QTrelloApp
+typeinfo appQTrelloApp.qmltypes
+prefer :/QTrelloApp/
+Main 1.0 Main.qml
+
